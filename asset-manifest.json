@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/react-project-redvindicadas/static/css/main.cb33c484.css",
+    "main.js": "/react-project-redvindicadas/static/js/main.b27adb6b.js",
+    "static/media/img-pantalla-inicial.svg": "/react-project-redvindicadas/static/media/img-pantalla-inicial.6b0ef458e889ec7cb20c.svg",
+    "static/media/imgcalendario.svg": "/react-project-redvindicadas/static/media/imgcalendario.b64ded4acd901e1f9f86976c17911818.svg",
+    "static/media/fondo-pres.png": "/react-project-redvindicadas/static/media/fondo-pres.9eccd365e19da8408ccb.png",
+    "static/media/imagen.png": "/react-project-redvindicadas/static/media/imagen.42e5d342de1223496dc2.png",
+    "static/media/Carrera.png": "/react-project-redvindicadas/static/media/Carrera.b447e0201e0f91435271.png",
+    "static/media/Dados.png": "/react-project-redvindicadas/static/media/Dados.77eab607eddda5b1f2f7.png",
+    "static/media/form.svg": "/react-project-redvindicadas/static/media/form.3d64b11711dbea3afa95.svg",
+    "static/media/logo-manifiesta.png": "/react-project-redvindicadas/static/media/logo-manifiesta.004ac77367e63af41efe.png",
+    "static/media/Cerebriti.png": "/react-project-redvindicadas/static/media/Cerebriti.2f4ded60e3b6adce6026.png",
+    "static/media/undraw_in_thought_orange.svg": "/react-project-redvindicadas/static/media/undraw_in_thought_orange.0a6da7c28156941e39aee0371310e595.svg",
+    "static/media/logo-igualadas.png": "/react-project-redvindicadas/static/media/logo-igualadas.4f274b9cd4f97c5334d0.png",
+    "static/media/undraw_positive_attitude_orange.svg": "/react-project-redvindicadas/static/media/undraw_positive_attitude_orange.d9692fcacc60e300529c495e93b71656.svg",
+    "static/media/feminismo.png": "/react-project-redvindicadas/static/media/feminismo.921035f47d1cde4ab83d.png",
+    "static/media/undraw_super_thank_you_orange.svg": "/react-project-redvindicadas/static/media/undraw_super_thank_you_orange.8e1495364264317aeef5d9807c3c34a9.svg",
+    "static/media/tech_power.png": "/react-project-redvindicadas/static/media/tech_power.2f4cf6c685b4d24d4833.png",
+    "static/media/logo-volcanicas.png": "/react-project-redvindicadas/static/media/logo-volcanicas.d1aafa3de66c82010b85.png",
+    "static/media/logo-redvin.svg": "/react-project-redvindicadas/static/media/logo-redvin.1e2e14cbb6122bb69ae19b6c937ac064.svg",
+    "index.html": "/react-project-redvindicadas/index.html",
+    "main.cb33c484.css.map": "/react-project-redvindicadas/static/css/main.cb33c484.css.map",
+    "main.b27adb6b.js.map": "/react-project-redvindicadas/static/js/main.b27adb6b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb33c484.css",
+    "static/js/main.b27adb6b.js"
+  ]
+}
