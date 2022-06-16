@@ -15,6 +15,9 @@ import Jovenes2 from './pages/juegayaprende/jovenes/jovenes2/Jovenes2';
 import Jovenes3 from './pages/juegayaprende/jovenes/jovenes3/Jovenes3';
 import JovenesJuegos from './pages/juegayaprende/jovenes/jovenes_juegos/JovenesJuegos';
 import Form from './pages/formulario/form';
+import Kitfem2 from './pages/kitfem/Kitfem2';
+import Kitfem3 from './pages/kitfem/Kitfem3';
+import Kitfem4 from './pages/kitfem/Kitfem4';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -32,6 +35,19 @@ root.render(
       <Route path='/redv-pers/lineas' element={<Lineas/>}></Route>
       <Route path='*' element={<Error404/>}></Route>
       <Route path='/redv-pers/home' element={<Navigate replace to={'/'}/>}></Route>
+      {/* Rutas internas de juega y aprende jóvenes */}
+      <Route path='/redv-pers/juega-aprende/jovenes1' element={<Jovenes1/>}></Route>
+      <Route path='/redv-pers/juega-aprende/jovenes2' element={<Jovenes2/>}></Route>
+      <Route path='/redv-pers/juega-aprende/jovenes3' element={<Jovenes3/>}></Route>
+      <Route path='/redv-pers/juega-aprende/jovenes-juegos' element={<JovenesJuegos/>}></Route>   
+      {/* Rutas de ejercicio formulario */}     
+      <Route path='/redv-pers/formulario' element={<Form/>}></Route>
+      {/* Rutas de KITFEM */}     
+      <Route path='/redv-pers/kit-fem' element={<Kitfem/>}></Route>
+      <Route path='/redv-pers/kit-fem/arengas' element={<Kitfem2/>}></Route>
+      <Route path='/redv-pers/kit-fem/informate' element={<Kitfem3/>}></Route>
+      <Route path='/redv-pers/kit-fem/stickers' element={<Kitfem4/>}></Route>
+
     </Routes>
   </BrowserRouter>
   </React.StrictMode>

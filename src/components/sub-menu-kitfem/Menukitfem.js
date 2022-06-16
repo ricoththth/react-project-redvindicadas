@@ -11,28 +11,28 @@ function Menukitfem() {
     <div className='nav-space'>
         <div className='little-nav'>
         <div class="unit-nav-2">
-			<Link to='/kitfem/Kitfem'>
+			<Link to='/redv-pers/kit-fem'>
              <img src={Posters} className="kitfemnav1"/>
 				<p>Posters</p>
 			</Link>
 		</div>
             <div className='unit-nav-1'>
-                <Link to='/kitfem/Kitfem2'>
-                    <img src={Arengas} className="kitfemnav1"/>
+                <Link to='./arengas/' className="kitfemnav1">
+                    <img src={Arengas} />
                     <p>Arengas</p>
                 </Link>
             </div>
             <div className='unit-nav-2'>
-                <a href="entretenimiento.html">
-                    <img src={Informate} className="kitfemnav1"/>
+            <Link to='./informate/' className='kitfemnav1'>
+                    <img src={Informate} />
                     <p>Informate</p>
-                </a>
+                </Link>
             </div>
             <div className='unit-nav-3'>
-                <a href="stickers.html">
-                    <img src={Stickers} className="kitfemnav1"/>
+            <Link to='./stickers/' className='kitfemnav1'>
+                    <img src={Stickers}/>
                     <p>Stickers</p>
-                </a>
+            </Link>
             </div>
         </div>	
         </div>
