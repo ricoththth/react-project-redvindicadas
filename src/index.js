@@ -32,13 +32,6 @@ root.render(
       <Route path='/redv-pers/lineas' element={<Lineas/>}></Route>
       <Route path='*' element={<Error404/>}></Route>
       <Route path='/redv-pers/home' element={<Navigate replace to={'/'}/>}></Route>
-      {/* Rutas internas de juega y aprende jóvenes */}
-      <Route path='/redv-pers/juega-aprende/jovenes1' element={<Jovenes1/>}></Route>
-      <Route path='/redv-pers/juega-aprende/jovenes2' element={<Jovenes2/>}></Route>
-      <Route path='/redv-pers/juega-aprende/jovenes3' element={<Jovenes3/>}></Route>
-      <Route path='/redv-pers/juega-aprende/jovenes-juegos' element={<JovenesJuegos/>}></Route>   
-      {/* Rutas de ejercicio formulario */}     
-      <Route path='/redv-pers/formulario' element={<Form/>}></Route>
     </Routes>
   </BrowserRouter>
   </React.StrictMode>

@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	background-color: FFF8F8;}
+
+.bannerkitfem{
+    background-color: #0f0a14;
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 8ch;
+	position: relative;
+	width: 100%;
+	}
+.bannerkitfem h2{
+    font-weight: 800;
+	font-size: 3rem;
+	color: rgb(234, 209, 255);
+	text-align: center;
+    width: 80%;
+}
+
+.vector-left-banner {
+    width: 10%;
+	position: absolute;
+	left: 0%;
+    top: 0%;
+}
+.vector-rigth-banner{
+    width: 10%;
+	position: absolute;
+	right: 0;
+	bottom: 0%;
+}
+@media screen and (min-width: 768px){
+	#bannerkitfem h2{
+		padding: 2.3rem;
+		font-size: 2.3rem;
+	}
+}
