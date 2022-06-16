@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/react-project-redvindicadas/static/css/main.a0e2199d.css",
-    "main.js": "/react-project-redvindicadas/static/js/main.8d9af75e.js",
+    "main.css": "/react-project-redvindicadas/static/css/main.756df363.css",
+    "main.js": "/react-project-redvindicadas/static/js/main.306ae3fd.js",
+    "static/media/bannner.svg": "/react-project-redvindicadas/static/media/bannner.ad594479bf0844d54810.svg",
     "static/media/img-pantalla-inicial.svg": "/react-project-redvindicadas/static/media/img-pantalla-inicial.6b0ef458e889ec7cb20c.svg",
     "static/media/imgcalendario.svg": "/react-project-redvindicadas/static/media/imgcalendario.b64ded4acd901e1f9f86976c17911818.svg",
     "static/media/fondo-pres.png": "/react-project-redvindicadas/static/media/fondo-pres.9eccd365e19da8408ccb.png",
@@ -34,11 +35,11 @@
     "static/media/logo-redvin.svg": "/react-project-redvindicadas/static/media/logo-redvin.1e2e14cbb6122bb69ae19b6c937ac064.svg",
     "index.html": "/react-project-redvindicadas/index.html",
     "static/media/vector1-home.svg": "/react-project-redvindicadas/static/media/vector1-home.adcd8e1f55d6888ba4a95ca1a27aaade.svg",
-    "main.a0e2199d.css.map": "/react-project-redvindicadas/static/css/main.a0e2199d.css.map",
-    "main.8d9af75e.js.map": "/react-project-redvindicadas/static/js/main.8d9af75e.js.map"
+    "main.756df363.css.map": "/react-project-redvindicadas/static/css/main.756df363.css.map",
+    "main.306ae3fd.js.map": "/react-project-redvindicadas/static/js/main.306ae3fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0e2199d.css",
-    "static/js/main.8d9af75e.js"
+    "static/css/main.756df363.css",
+    "static/js/main.306ae3fd.js"
   ]
 }
