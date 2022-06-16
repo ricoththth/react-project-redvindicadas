@@ -6,7 +6,8 @@
 	background-color: FFF8F8;}
 
 .bannerkitfem{
-    background-color: #0f0a14;
+    background-image:url("../../icons/bannner.svg");
+	background-size: 100%;
 	font-family: 'Montserrat', sans-serif;
 	display: flex;
 	justify-content: space-evenly;
@@ -16,8 +17,8 @@
 	}
 .bannerkitfem h2{
     font-weight: 800;
-	font-size: 3rem;
-	color: rgb(234, 209, 255);
+	font-size: 2rem;
+	color: rgba(70, 254, 94, 0.524);
 	text-align: center;
     width: 80%;
 }

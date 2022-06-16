@@ -78,7 +78,7 @@
 	font-size: 12px;
 	padding: 0.8em 1.5em 0.8em 1.2em;
 	color: white;
-	background: #FF671B;
+	background: #13ad41;
 	border: none;
 	letter-spacing: 0.05em;
 	border-radius: 20em;
@@ -88,8 +88,8 @@
 	margin-right: 8px;
    }
    .cssbuttons-io-button:hover {
-	box-shadow: 0 0.5em 1.5em -0.5em #ff2600be;
+	box-shadow: 0 0.7em 1.7em -0.5em #7523dabe;
    }
    .cssbuttons-io-button:active {
-	box-shadow: 0 0.3em 1em -0.5em #d66c26be;
+	box-shadow: 0 0.3em 1em -0.5em #1900fbbe;
    }

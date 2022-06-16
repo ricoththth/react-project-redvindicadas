@@ -4,6 +4,7 @@ import Navbar from '../../components/navbar/Navbar';
 import Footer from '../../components/footer/Footer';
 import Bannerkitfem from '../../components/banner kitfem/Bannerkitfem';
 import Menukitfem from '../../components/sub-menu-kitfem/Menukitfem';
+import Informate from '../../components/informate/Informate';
 
 function Kitfem3() {
   return (
@@ -12,6 +13,7 @@ function Kitfem3() {
         <Navbar/>
         <Bannerkitfem/>
         <Menukitfem/>
+        <Informate/>
         <Footer/>
     </div>
   )

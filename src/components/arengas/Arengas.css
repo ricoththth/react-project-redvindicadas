@@ -1,0 +1,32 @@
+.card {
+    width: 80%;
+    background-color: #CC99A9;
+}
+.content-kit-left img{
+    width: 50%;
+}
+.content-kit-rigth{
+    width: 10%; display: flex; flex-direction: column;align-items: flex-end;
+}
+.content-kit-rigth img{
+    width: 50%;
+}
+.content-middle-cards{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content-posters-general{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-middle-cards p{
+    background-color: #c48d9f7c;
+    margin: 1rem;
+    color: #0f0a14;
+    padding: 2rem;
+    border-radius: 3rem;
+    text-align: center;
+}
