@@ -23,8 +23,8 @@ function Arengas() {
 
 <div className='content-middle-cards'>
 
-              <center><iframe width="600" height="340" src="https://www.youtube.com/embed/dTzx6gV5LdQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-
+              <center><iframe className='vivirpalomarsong' src="https://www.youtube.com/embed/dTzx6gV5LdQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+              <div className='arengastext'>
               <p>Tú me quieres virgen.
                 Tú me quieres santa.
                 Tú me tienes harta.</p>
@@ -51,6 +51,7 @@ function Arengas() {
                     <p> Vecino, vecina, no sea indiferente
                         ¡Se mata a las mujeres delante de la gente!
                         </p>
+            </div>
 </div>
 
 

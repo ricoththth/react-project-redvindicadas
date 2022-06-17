@@ -35,9 +35,22 @@
 	right: 0;
 	bottom: 0%;
 }
+/*Resolución de tablet*/
 @media screen and (min-width: 768px){
-	#bannerkitfem h2{
-		padding: 2.3rem;
-		font-size: 2.3rem;
+	.bannerkitfem{
+		padding: 5ch;
+		}
+}
+/*RESOLUCION DE CELULAR*/
+@media only screen and (max-width: 600px) {
+	.bannerkitfem {
+		padding: 1ch;
+	}
+	.bannerkitfem h2{
+		font-weight: 800;
+		font-size: 1.2rem;
+		color: rgba(70, 254, 94, 0.524);
+		text-align: center;
+		width: 80%;
 	}
 }

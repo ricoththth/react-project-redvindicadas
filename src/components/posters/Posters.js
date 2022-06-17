@@ -11,6 +11,9 @@ import Poster6 from "../../icons/poster6.svg"
 import Poster7 from "../../icons/poster7.svg"
 import Poster8 from "../../icons/poster8.svg"
 import Poster9 from "../../icons/poster9.svg"
+import Poster10 from "../../icons/poster10.svg"
+import Poster11 from "../../icons/poster11.svg"
+import Poster12 from "../../icons/poster12.svg"
 import Vectorkit2 from "../../icons/Vector kitfem2.png"
 import Vectorkit4 from "../../icons/Vector kitfem4.png"
 
@@ -31,6 +34,9 @@ function Posters() {
                   <img src={Vectorkit3} />
               </div>
               <div className='content-middle-posters'>
+                  <img src={Poster10}/>
+                  <img src={Poster11} />
+                  <img src={Poster12} />
                   <img src={Poster1} />
                   <img src={Poster2} />
                   <img src={Poster3} />
@@ -56,6 +62,8 @@ function Posters() {
                 </a>
               </section>
           </div>
+
+        
       </div>
   )
 }

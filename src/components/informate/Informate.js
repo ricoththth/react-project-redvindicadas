@@ -3,7 +3,12 @@ import './Informate.css';
 import Vectorkit1 from "../../icons/Vector kitfem1.png"
 import Vectorkit3 from "../../icons/Vector kitfem3.png"
 import Vectorkit2 from "../../icons/Vector kitfem2.png"
+import Serie1 from "../../icons/entertaiment1poster.jpg"
 import Vectorkit4 from "../../icons/Vector kitfem4.png"
+import Serie2 from "../../icons/poster1.svg"
+import Serie3 from "../../icons/entertaiment3poster.jpg"
+import Serie4 from "../../icons/entertaiment4poster.jpg"
+import Podcastkit from './Podcastkit';
 
 function Informate() {
     return (
@@ -11,7 +16,7 @@ function Informate() {
 
             <div className='section-tittle'>
                 <h2>
-                    ARENGAS
+                    INFORMATE
                 </h2>
             </div>
 
@@ -24,6 +29,8 @@ function Informate() {
 
 
                 <div className='content-middle-cards'>
+                    <Podcastkit/>
+                    
                 </div>
 
 

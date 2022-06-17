@@ -21,6 +21,7 @@
     width: 10%;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: flex-end;
 }
 
@@ -93,3 +94,27 @@
    .cssbuttons-io-button:active {
 	box-shadow: 0 0.3em 1em -0.5em #1900fbbe;
    }
+   
+   /*Resolución de tablet*/
+@media screen and (max-width: 1000px){
+	
+}
+/*RESOLUCION DE CELULAR*/
+@media only screen and (max-width: 700px) {
+    .content-middle-posters {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 0%;
+        justify-content: space-between;
+    }
+    .content-middle-posters img {
+        width: 50%;
+        margin-bottom: 1.5%;
+        height: 100px;
+    }
+    .section-tittle h2 {
+        padding: 0.6rem;
+        margin-bottom: 1.5%;
+    }
+}
