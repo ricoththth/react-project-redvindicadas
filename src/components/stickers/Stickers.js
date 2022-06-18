@@ -96,7 +96,7 @@ function Stickers(h) {
                             </div>
                     </div>
 
-                    <div className='card-stickerg'>
+                    <div className='card-sticker'>
                         <img src="https://ih1.redbubble.net/image.831627157.0990/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.u1.jpg" class="card-img-top stickers" alt="..."/>
                             <div class="card-body">
                                 <h5 class="card-title">Aplastar el patriarcado. </h5>
