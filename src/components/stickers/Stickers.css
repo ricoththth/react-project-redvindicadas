@@ -1,6 +1,10 @@
-.card{
-    background-color: blueviolet;
+.card-stickers1{
+    width: 18rem;
 }
-.card-texto p{
-background-color: transparent;
+.card-stickers{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-stickers1 h6{
+    font-weight: lighter;
 }

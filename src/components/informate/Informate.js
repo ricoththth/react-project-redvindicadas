@@ -1,48 +1,34 @@
 import React from 'react'
 import './Informate.css';
-import Vectorkit1 from "../../icons/Vector kitfem1.png"
-import Vectorkit3 from "../../icons/Vector kitfem3.png"
-import Vectorkit2 from "../../icons/Vector kitfem2.png"
-import Serie1 from "../../icons/entertaiment1poster.jpg"
-import Vectorkit4 from "../../icons/Vector kitfem4.png"
-import Serie2 from "../../icons/poster1.svg"
-import Serie3 from "../../icons/entertaiment3poster.jpg"
-import Serie4 from "../../icons/entertaiment4poster.jpg"
-import Podcastkit from './Podcastkit';
+import ModalJuegos from './ModalInf';
+import {Card, Button, Container, Row } from 'react-bootstrap';
 
-function Informate() {
-    return (
-        <div>
-
-            <div className='section-tittle'>
-                <h2>
-                    INFORMATE
-                </h2>
-            </div>
-
-
-            <div className='content-posters-general'>
-                <div className='content-kit-left'>
-                    <img src={Vectorkit1} />
-                    <img src={Vectorkit3} />
-                </div>
-
-
-                <div className='content-middle-cards'>
-                    <Podcastkit/>
-                    
-                </div>
-
-
-                <div className='content-kit-rigth'>
-                    <img src={Vectorkit2} />
-                    <img src={Vectorkit4} />
-                </div>
-
-            </div>
-
-        </div>
-    )
+function Informate(k) {
+    return(
+    <Row  className="mx-auto">
+    <Container className="container-card mx-auto">
+            <Card style={{ width: '18rem' }}>
+              <Card.Img variant="top" src={k.img} />
+              <Card.Body>
+                <Card.Title>{k.titulo}</Card.Title>
+                <Card.Text>
+                    {k.tipo}
+                </Card.Text>
+                <button className="button-verahora btn" data-bs-toggle="modal" data-bs-target={`#id${k.id}`} >Ver más</button> 
+              </Card.Body>
+            </Card>
+        
+    <ModalJuegos
+            idModulo={`id${k.id}`}
+             tituloModulo={k.titulo}
+             imgModulo={k.img}
+             descripcionModulo={k.descripcion}
+             generoModulo={k.genero}
+             tipoModulo={k.tipo}
+             duracionModulo={k.duracion}
+             verModulo={k.ver}/>
+    </Container></Row>
+    );
 }
 
 export default Informate
