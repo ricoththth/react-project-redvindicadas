@@ -25,7 +25,7 @@ function Menukitfem() {
             <div className='unit-nav-2'>
             <Link to='/redv-pers/kit-fem/informate/' className='kitfemnav1'>
                     <img src={Informate} />
-                    <p>Informate</p>
+                    <p>Entretenimiento</p>
                 </Link>
             </div>
             <div className='unit-nav-3'>

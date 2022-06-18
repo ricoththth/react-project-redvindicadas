@@ -21,15 +21,48 @@
     font-weight: bold;
 }
 .button-verahora, .button-verahora:active{
-    background-color:#A12161;
-    color: white;
-    border-color: #A12161;
+    background-color: #f2acb9;
+    color: #FFF8F8;
+    border-color: #f2acb9;
+    font-weight: 700;
+    
 }
 .button-verahora:hover{
-    color:#A12161;
-    background-color: white;
-    border-color: #A12161;
+    color: #f2acb9;
+    background-color: #FFF8F8;
+    border-color: #f2acb9;
 }
 .cardGroup{
     margin: auto;
+}
+.btn-form, .btn-form:active{
+    background-color: #C75C7E;
+    color: #FFF8F8;
+    border-color: #C75C7E;
+    font-weight: 700;
+}
+.btn-form:hover{
+    color: #C75C7E;
+    background-color: #FFF8F8;
+    border-color: #C75C7E;
+}
+.btn-form-deleted, .btn-form-deleted:active{
+    background-color:#A12161;
+    color:  #FFF8F8;
+    font-weight: 700;
+    border-color: #A12161;
+    
+}
+.btn-form-deleted:hover{
+    color:#A12161;
+    background-color:  #FFF8F8;
+    border-color: #A12161;
+}
+.form-crud{
+    padding: 30px 40px;
+    margin:0px auto;
+}
+.form-crud-inside{
+    background-color: #f2acb950;
+    padding: 30px 40px;
 }

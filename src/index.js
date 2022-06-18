@@ -19,6 +19,7 @@ import Form from './pages/formulario/form';
 import Kitfem2 from './pages/kitfem/Kitfem2';
 import Kitfem3 from './pages/kitfem/Kitfem3';
 import Kitfem4 from './pages/kitfem/Kitfem4';
+import FormSeries from './components/informate/formseries';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -48,7 +49,8 @@ root.render(
       <Route path='/redv-pers/kit-fem/arengas' element={<Kitfem2/>}></Route>
       <Route path='/redv-pers/kit-fem/informate' element={<Kitfem3/>}></Route>
       <Route path='/redv-pers/kit-fem/stickers' element={<Kitfem4/>}></Route>
-
+      {/*Rutas form */}
+      <Route path='/redv-pers/kit-fem/informate/form' element={<FormSeries/>}></Route>
     </Routes>
   </BrowserRouter>
   </React.StrictMode>
